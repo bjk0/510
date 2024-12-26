@@ -1,5 +1,3 @@
-import GUI from "https://cdn.jsdelivr.net/npm/lil-gui@0.18.2/+esm"
-
 const canvasEl = document.querySelector("canvas");
 const imgInput = document.querySelector("#image-selector-input");
 const devicePixelRatio = Math.min(window.devicePixelRatio, 2);
