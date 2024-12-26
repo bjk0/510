@@ -1,7 +1,7 @@
 const canvasEl = document.querySelector("canvas");
 const imgInput = document.querySelector("#image-selector-input");
 const devicePixelRatio = Math.min(window.devicePixelRatio, 2);
-
+console.log(typeof GUI);
 const params = {
     blueish: .6,
     scale: 7,
