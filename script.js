@@ -4,17 +4,17 @@ const devicePixelRatio = Math.min(window.devicePixelRatio, 2);
 
 // Hardcoded parameters
 const params = {
-    blueish: 0.6,
-    scale: 7,
-    illumination: 0.15,
-    surfaceDistortion: 0.07,
-    waterDistortion: 0.03,
+    blueish: 0,
+    scale: 12,
+    illumination: 0,
+    surfaceDistortion: 0.12,
+    waterDistortion: 0.01,
 };
 
 let image, uniforms;
 const gl = initShader();
 updateUniforms();
-loadImage("https://ksenia-k.com/img/codepen/for-water-distortion-demo-2.jpg");
+loadImage("assets/alia.png");
 render();
 window.addEventListener("resize", resizeCanvas);
 
